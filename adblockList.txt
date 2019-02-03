@@ -1,14 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 20190129054000
-! Version: 18
-! Title: Adblock Adguard 自用屏蔽列表 
-! Last modified:  2019-01-29 05:40:00
+! Version: 20
+! Title: Adblock 自用屏蔽列表 
+! Last modified:  2019-02-03 18:27:00
 ! Expires: 1 days (update frequency)
-! Homepage: https://hatsuzuki.ml/adblockList.txt
+! Homepage: https://moe168.ml/adblockList
 !-------------------------------!
 ! 黑名单
-||140.143.218.16$network
-||140.143.180.67$network
 ||140.143.218.16
 ||140.143.180.67
 ||sifuhe.cn^
@@ -71,8 +68,13 @@ baidu.com##.first-card-body
 baidu.com##.square-tab-pop
 baidu.com##.ns-square-point
 baidu.com##.ts-image-uploader-icon-point
-baidu.com##[class*=main]
 baidu.com##[class*="ad-body"]
+baidu.com##[class*="chunwan"]
+baidu.com###ftCon
+baidu.com##.qrcodeCon
+baidu.com###header > div > ul
+baidu.com###header > div:nth-child(5) > div > ul
+baidu.com###header > div:nth-child(7) > div > ul
 bilibili.com###fixed_app_download
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 dictweb.translator.qq.com##.download-panel.clearfix
