@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20
+! Version: 23
 ! Title: Adblock 自用屏蔽列表 
-! Last modified:  2019-02-03 18:27:00
+! Last modified:  2019-02-05 14:30:00
 ! Expires: 1 days (update frequency)
 ! Homepage: https://moe168.ml/adblockList
 !-------------------------------!
@@ -70,14 +70,18 @@ baidu.com##.ns-square-point
 baidu.com##.ts-image-uploader-icon-point
 baidu.com##[class*="ad-body"]
 baidu.com##[class*="chunwan"]
+baidu.com##[class*="ec_r_"]
 baidu.com###ftCon
 baidu.com##.qrcodeCon
 baidu.com###header > div > ul
-baidu.com###header > div:nth-child(5) > div > ul
-baidu.com###header > div:nth-child(7) > div > ul
+baidu.com###application > div > ul
 bilibili.com###fixed_app_download
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
+bilibili.com###slide_ad
 dictweb.translator.qq.com##.download-panel.clearfix
+youtube.com###masthead-ad
+
+！
 ||gss0.bdstatic.com/5bd1bjqh_Q23odCf/static/wiseindex/amd_modules/@searchfe/underscore_2cd873d.js
 ||help.wangmeng.baidu.com/cpro.php
 
